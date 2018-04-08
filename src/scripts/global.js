@@ -20,3 +20,6 @@ var loadJSON = function(url, callback){
     };
     xobj.send(null);
 };
+
+/* @constant {number} */
+const MAX_RESULTS_SIZE = 9;
